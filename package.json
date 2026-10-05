@@ -1,0 +1,31 @@
+{
+  "name": "connectx-social-platform",
+  "version": "1.0.0",
+  "description": "ConnectX — A Full-Stack Real-Time Social Media Platform for GUVI Major Project 2",
+  "main": "server/server.js",
+  "scripts": {
+    "install:all": "npm install && npm --prefix server install && npm --prefix client install",
+    "server": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev",
+    "dev": "concurrently --kill-others-on-fail \"npm --prefix server run dev\" \"npm --prefix client run dev\"",
+    "seed": "npm --prefix server run seed",
+    "test": "npm --prefix server test",
+    "build": "npm --prefix client run build"
+  },
+  "keywords": [
+    "social-media",
+    "react",
+    "nodejs",
+    "express",
+    "mongodb",
+    "socketio",
+    "jwt",
+    "realtime",
+    "connectx"
+  ],
+  "author": "ConnectX Team",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
