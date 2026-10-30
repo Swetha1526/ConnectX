@@ -83,12 +83,11 @@ const startServer = async () => {
     if (userCount === 0) {
       console.log('[ConnectX] Database is empty. Auto-seeding initial demo accounts and posts...');
       const seedDatabase = require('./utils/seedData');
-      // Run seed logic without process.exit
-      const { MongoMemoryServer } = require('mongodb-memory-server');
       const Post = require('./models/Post');
       const Comment = require('./models/Comment');
       const Message = require('./models/Message');
       const Notification = require('./models/Notification');
+
       
       const sampleUsers = [
         {
