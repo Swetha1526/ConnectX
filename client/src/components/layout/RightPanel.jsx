@@ -163,16 +163,7 @@ export const RightPanel = () => {
         </div>
       </div>
 
-      {/* Footer / Copyright */}
-      <div className="px-2 text-xs text-gray-400 dark:text-gray-500 space-y-2">
-        <div className="flex flex-wrap gap-x-3 gap-y-1">
-          <span className="hover:underline cursor-pointer">About</span>
-          <span className="hover:underline cursor-pointer">Help Center</span>
-          <span className="hover:underline cursor-pointer">Privacy</span>
-          <span className="hover:underline cursor-pointer">Terms</span>
-        </div>
-        <p>© 2026 ConnectX • GUVI Major Project</p>
-      </div>
+
     </aside>
   );
 };

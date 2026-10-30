@@ -58,10 +58,7 @@ export const AuthLayout = ({ children, title, subtitle }) => {
           </div>
         </div>
 
-        {/* Footer info */}
-        <div className="relative z-10 text-xs text-brand-300/80">
-          GUVI Major Project 2 • Full-Stack Production Architecture
-        </div>
+
       </div>
 
       {/* Right Form Container */}
