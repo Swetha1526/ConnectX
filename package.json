@@ -4,6 +4,7 @@
   "description": "ConnectX — A Full-Stack Real-Time Social Media Platform for GUVI Major Project 2",
   "main": "server/server.js",
   "scripts": {
+    "start": "node server/server.js",
     "install:all": "npm install && npm --prefix server install && npm --prefix client install",
     "server": "npm --prefix server run dev",
     "client": "npm --prefix client run dev",
